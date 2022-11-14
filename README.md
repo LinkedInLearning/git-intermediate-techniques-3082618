@@ -1,34 +1,26 @@
 # Git Intermediate Techniques
 This is the repository for the LinkedIn Learning course Git Intermediate Techniques. The full course is available from [LinkedIn Learning][lil-course-url].
 
-_See the readme file in the main branch for updated instructions and information._
+![Git Intermediate Techniques][lil-thumbnail-url] 
+
+Enhance your Git skillset, and explore intermediate techniques and concepts that can help you work more efficiently with the popular open-source version control software. Instructor Kevin Skoglund shares branch management techniques, like deleting and pruning, and how to use tags to mark important points in the branch history. Learn to use interactive staging to stage small portions of a file, cherry-picking to share commits between branches, patches to share commits with others, and techniques for tracking down problems in your project. Kevin demystifies the rebase command and explains when to choose rebasing over merging.
+
 ## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+- You can follow along using the GutHub repository.
+- You can also download the whole repository by cloning it. 
+- You don't need to have a GitHub account to follow along. You can click the code button on the main repo page and then choose the download option for downloading a zip file that contains the repository. 
 
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
+The repository includes directories for each chapter and video in the course. You can navigate to the directory that corresponds to the video that you're watching. The files for the start of the course are in chapter 01 and the first file is 0101.zip. Each zip file contains a separate git repository containing the files and commits as they exist at the start of the video. Each repository has been compressed so they can exist inside the main GitHub repository. You can also just download a single set of exercise files by clicking on the name and then on the download button.
 
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
+### Instructor
 
-    error: Your local changes to the following files would be overwritten by checkout:        [files]
-    Please commit your changes or stash them before you switch branches.
-    Aborting
-
-To resolve this issue:
-	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
-
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+Kevin Skoglund 
+                            
 
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+                            
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/kevin-skoglund).
 
+[lil-course-url]: https://www.linkedin.com/learning/git-intermediate-techniques-16077011?dApp=59033956
+[lil-thumbnail-url]: https://cdn.lynda.com/course/3082618/3082618-1668022974716-16x9.jpg
